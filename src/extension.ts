@@ -1,6 +1,17 @@
 
 import * as vscode from 'vscode';
 
+
+
+
+//TODO: 
+/*
+activate:
+增加post-checkout的hook，并设置为可执行
+
+1. 切换分支时识别当前开启的窗口，保存，关闭，并写入对应文件
+2. 切换分支后读取相应文件，打开相应文件
+*/
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
